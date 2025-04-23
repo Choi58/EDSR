@@ -1,9 +1,9 @@
-# 🧠 Variational Autoencoder for Facial Image Generation
+# 🖼️ Enhanced Deep Residual Networks for Single Image Super-Resolution
 
-**[📄 [arXiv]](https://arxiv.org/abs/1312.6114)**
+**[📄[arXiv]](https://arxiv.org/abs/1707.02921)**
 
-> 📌 PyTorch implementation of the VAE model described in **"Auto-Encoding Variational Bayes" (Kingma & Welling, 2014)**.  
-> **Type:** Personal project / Academic presentation  
-> **Goal:** Reproduce the vanilla VAE architecture for generative image modeling using the CelebA dataset.
+> 📌 PyTorch implementation of the EDSR model described in **"Enhanced Deep Residual Networks for Single Image Super-Resolution" (CVPR Workshops 2017)**.  
+> **Type:** Personal project  
+> **Goal:** Reproduce the EDSR architecture for educational and experimental purposes.
 
-This repository contains a PyTorch implementation of a Variational Autoencoder (VAE) trained on facial images. The model learns a latent distribution of the training data and generates new samples by decoding points drawn from the learned latent space.  
+This repository contains a PyTorch implementation of the EDSR model, which aims to reconstruct high-resolution images from their low-resolution counterparts. The EDSR architecture removes unnecessary modules from conventional residual networks and expands the model size to achieve superior performance in single image super-resolution tasks.
